@@ -7,19 +7,23 @@
     <title>Gato</title>
 </head>
 <body>
-<div data-role="page" id="inicio">
+<div data-role="page" id="page1">
     <div data-role="header">
-        <a href="#" data-icon="home">Siguiente</a>
-    <h1>Hola</h1>
-        </div>
+        <h1>jQuery Mobile Example</h1>
+    </div>
     <div data-role="content">
-        <p>Contenido de la segunda</p>
-        <a href="index.html" data-role="button">Link button</a>
+        <p>Some Content here</p>
     </div>
     <div data-role="footer" data-position="fixed">
-        <h2>campitos-ley</h2>
-    </div>
-</div>
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li><a href="#" class="ui-btn-active" data-icon="home">Inicio</a></li>
+                <li><a href="#" data-icon="calendar">Menu</a></li>
+                <li><a href="#" data-icon="cloud">galeria</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /footer -->
+</div><!-- /page -->
 <script src="js/jquery-1.11.2.min.js"></script>
 <script src="js/jquery.mobile-1.4.5.js"></script>
 </body>
